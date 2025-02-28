@@ -2,4 +2,8 @@
 html{font-size: 16px; color: #333;}
 a{color: #333; text-decoration: none; display: block;}
 
-header{background: orange;}
+header{background: orange; display: flex; justify-content: space-between;}
+header nav{width: 60%;}
+header nav ul{display: flex; width: 60%; justify-content: space-between;}
+header nav ul{width: 25%;}
+
